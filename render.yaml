@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: youtify
+    buildCommand: "./build.sh"
+    env: python
+    startCommand: "gunicorn youtify.wsgi:application"
