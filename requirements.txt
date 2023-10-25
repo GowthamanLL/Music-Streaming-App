@@ -3,3 +3,4 @@ youtube-search
 spotipy 
 youtube-search
 gunicorn
+whitenoise
